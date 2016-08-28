@@ -6,4 +6,4 @@ RewriteCond %{HTTP_HOST} ^www.sdz.vip [NC]
 RewriteRule ^(.*)$ http://www.saodangzu.com/$1 [L,R=301]
 DirectoryIndex index.html index.php index.htm
 RewriteBase /
-RewriteRule ^/ $1/index.php
+RewriteRule ^/ $1/index.html
