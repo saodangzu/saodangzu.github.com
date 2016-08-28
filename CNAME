@@ -1,9 +1,3 @@
-Options +FollowSymlinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^sdz.vip [NC]
-RewriteRule ^(.*)$ http://www.saodangzu.com/$1 [L,R=301]
-RewriteCond %{HTTP_HOST} ^www.sdz.vip [NC]
-RewriteRule ^(.*)$ http://www.saodangzu.com/$1 [L,R=301]
-DirectoryIndex index.html index.php index.htm
-RewriteBase /
-RewriteRule ^/ $1/index.php
+www.saodangzu.com
+www.sdz.vip
+sdz.vip
